@@ -1,67 +1,111 @@
-@import 'config';
-@import 'menu';
+@import "config";
+@import "base";
+@import "navigation";
 
-* {
-    box-sizing: border-box;
-}
+// section {
+//   padding: 2rem;
+// }
 
-body {
-    @include background;
-    background: $primary-color;
-    color: #ffffff;
-    height: 100%;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-}
+.container-main {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  overflow: hidden;
+  margin: 1rem;
 
-// Headings
-h1,
-h2,
-h3 {
-    margin:0;
-    font-weight: 300;
-
-    &.lg-heading {
-        font-size: 3rem;
-    }
-
-    &.sm-heading { 
-        margin-bottom: 0.2rem;
-    }
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-header {
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-}
-
-.text-secondary {
+  .heading-title {
     color: $secondary-color;
+    font-size: 2rem;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-content: justify;
+    p {
+      text-justify: auto;
+      padding: 0 2rem;
+      a {
+        &:hover {
+          color: $secondary-color;
+          @include easeOut();
+        }
+      }
+    }
+
+    .heading {
+      margin: 0 2rem;
+      align-items: center;
+      color: rgba($color: $secondary-color, $alpha: $heading-opacity);
+    }
+
+    .news-section {
+      ul {
+        list-style: none;
+        li {
+          a {
+            &:hover {
+              color: $secondary-color;
+              @include easeOut();
+            }
+          }
+          span {
+            padding: 0.5rem;
+            font-size: 0.7em;
+            color: gray;
+          }
+        }
+      }
+    }
+
+    .skills-section {
+      ul {
+        list-style: none;
+        border: 0;
+        li {
+          font-size: 0.5em;
+          cursor: pointer;
+          background: $primary-color;
+          display: inline-block;
+          padding: 0.3rem 0.5rem;
+          border-radius: 0.7rem;
+          margin: 0;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            font-size: 0.7em;
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
 }
 
-main {
-    padding: 4rem;
-    height: 100%;
-    .icon {
-        margin-top: 1rem;
-        a {
-            padding: 0.4rem;
+@media (max-width: 320px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
-            &:hover {
-                color:$secondary-color;
-                @include easeOut();
-            }
+    header.container-left {
+      position: relative;
+      width: 100%;
+      align-items: center;
+    }
+    main {
+      position: relative;
+      .container-main {
+        width: 100%;
+        .intro {
+          p {
+            text-align: center;
+          }
         }
+      }
     }
-    
-    &#home {
-        overflow: hidden;
-    }
+  }
 }
