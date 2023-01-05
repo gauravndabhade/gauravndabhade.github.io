@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gauravndabhade.github.io/static/css/main.bab0b925.chunk.css",
+    "main.js": "/gauravndabhade.github.io/static/js/main.359bf0ee.chunk.js",
+    "main.js.map": "/gauravndabhade.github.io/static/js/main.359bf0ee.chunk.js.map",
+    "runtime-main.js": "/gauravndabhade.github.io/static/js/runtime-main.6f6837d5.js",
+    "runtime-main.js.map": "/gauravndabhade.github.io/static/js/runtime-main.6f6837d5.js.map",
+    "static/js/2.663a2613.chunk.js": "/gauravndabhade.github.io/static/js/2.663a2613.chunk.js",
+    "static/js/2.663a2613.chunk.js.map": "/gauravndabhade.github.io/static/js/2.663a2613.chunk.js.map",
+    "static/js/3.213d3b8f.chunk.js": "/gauravndabhade.github.io/static/js/3.213d3b8f.chunk.js",
+    "static/js/3.213d3b8f.chunk.js.map": "/gauravndabhade.github.io/static/js/3.213d3b8f.chunk.js.map",
+    "index.html": "/gauravndabhade.github.io/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/gauravndabhade.github.io/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.663a2613.chunk.js.LICENSE.txt": "/gauravndabhade.github.io/static/js/2.663a2613.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f6837d5.js",
+    "static/js/2.663a2613.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.359bf0ee.chunk.js"
+  ]
+}

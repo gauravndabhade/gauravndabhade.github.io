@@ -1,0 +1,162 @@
+{
+  "main": {
+    "name":"Gaurav Dabhade",
+    "description":"I am Software Developer from Pune. I love",
+    "mylove" : ["Coding", "Swimming", "Reading", "Cycling", "Cricket", "Chess", "Movies", "Grooming","Travalling", "Painting", "Eating", "Coffee", "Tea", "Pizza", "Banana", "Mango", "Chocolate", "Ice-Creem", "Vegetarian-Food", "Kids", "Cats", "Dogs", "Work", "Music", "You!", "Myself", "My-Family", "Gadgets", "Gossip", "Bikes", "Long-Drive", "Festivals", "Your Smile :)", "Sleeping", "Running", "Walking", "Desi-Ghee"],
+    "image":"profilepic.jpeg",
+    "bio":["Namaste🙏, Myself Gaurav Dabhade from Pune! Lovely peoples also calls me `DB`.","I've had 4+ years of experience in software development with strong logical, programming and debugging skills. Mostly, I work on backend development with Python. I take responsibility for the design of the system and database, the development of features and enhancements, testing, and deployment. Good understanding / knowledge of web application architecture and ecosystem. Exposure on data modelling and data engineering. I am also enthusiastic about best practices, design patterns, and code refactoring. Demonstrated history of working in the software development/services/management. Skilled in Python, Django, React, Git, HTML/CSS/JavaScript, Docker, MySQL/Postgres, Linux, Agile Methodologies and Management.",
+  "Along with Software Development, I like reading books, cooking and visiting new places. I'm a quiet person and a good audience for poetry. I play chess and cricket. I also enjoy having dogs as pets. I am good listener and understanding person. I do criticise something negative and encourage something positive. I am B+ with every drop of my blood🩸."],
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "gauravndabhade@gmail.com",
+    "phone": "920-936-0031",
+    "address":{
+      "street":"Near Ganesh Temple,",
+      "city":"Aurangabad",
+      "state":"Maharastra",
+      "zip": "423701"
+    },
+    "website": "gauravndabhade.github.io",
+    "social":[
+      {
+        "name":"Facebook",
+        "url":"https://www.goodreads.com/user/show/63693590-gaurav-dabhade",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/db_gaurav_",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/gauravndabhade/?hl=en",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gaurav-dabhade-193b4a105/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/gauravndabhade/",
+        "className":"fa fa-github"
+      },
+      {
+        "name": "gitlab",
+        "url":"https://gitlab.com/gauravndabhade",
+        "className":"fa fa-github-square"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/5287022/gaurav-dabhade",
+        "className": "fa fa-stack-overflow"
+      },
+      {
+        "name" : "Discord",
+        "url": "https://discord.com/invite/DXHXfbZX",
+        "className" : "fa fa-comments"
+      },
+      {
+        "name" : "Blog",
+        "url" : "http://gauravndabhade.blogspot.com/",
+        "className": "fa fa-smile-o"
+      },
+      {
+        "name" : "YouTube",
+        "url" : "https://www.youtube.com/@gauravdabhade8662",
+        "className" : "fa fa-youtube-play"
+      },
+      {
+        "name":"GoodReads",
+        "url":"https://www.goodreads.com/user/show/63693590-gaurav-dabhade",
+        "className":"fa fa-book"
+      }
+    ]
+  },
+  "resume":{
+    "resumedownload":"gaurav_resume.pdf",
+    "education":[
+      {
+        "school":"SKN Sinhgad Institute of Technology, Lonavala",
+        "degree":"Batchelores of Engineering in Computer Science",
+        "graduated":"2017",
+        "description":"It is one of the most beautiful campus in India. This discipline undergraduate programe, I studied computation of hardware, software and various programming languages and design that form an integral part of computer science. Some related Subjects as Operating Systems, Networking, Data Structure and Algorithms, Database Systems, Cloud Computing, Artificial Intelligence, Programming with C/C++/Java, Information Technology, Data Science, Computer Architecture, Micro-controllers/processers etc",
+        "website": "https://www.careers360.com/colleges/skn-sinhgad-institute-of-technology-and-science-lonavala"
+      },
+      {
+        "school":"Government Polytechnic, Ahamednagar",
+        "degree":"Diploma in Computer Technology",
+        "graduated":"2014",
+        "description":"Diploma in Computer Technology is a 3 year program that deals with computer hardware/software, networking, OS, Computer Engineering, Software Testing, Soft-skills etc. Since it is a diploma course the depth is kept at the beginner level.",
+        "website": "https://www.careers360.com/colleges/government-polytechnic-ahmednagar"
+      }
+    ],
+    "work":[
+      {
+        "company":"Tavant Technologies",
+        "title":"Senior Software Support Engineer",
+        "years":"January 2023 - Present",
+        "website": "https://www.tavant.com/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"FinancePeer",
+        "title":"Software Engineer",
+        "years":"November 2021 - February 2022",
+        "website": "https://www.financepeer.com/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Wind World India Pvt. Ltd.",
+        "title":"Jr. Software Engineer",
+        "years":"May 2021 - November 2021",
+        "website": "https://windworldindia.net/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Farintsol",
+        "title":"Full Stack Developer",
+        "years":"December 2020 - May 2021",
+        "website": "https://www.atmstech.in/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Senquire Analytics",
+        "title":"Full Stack Developer",
+        "years":"October 2018 - September 2020",
+        "website": "https://www.senquire.com/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"SmartBeings",
+        "title":"Android Developer",
+        "years":"May 2018 - September 2018",
+        "website":"https://smartbeings.com/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Vumonic",
+        "title":"Android Developer + Intern",
+        "years":"Auguest 2017 - May 2018",
+        "website": "https://www.expensebit.com/",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+
+    ],
+    "openings": [
+      {
+        "title" : "Friend / Friend++",
+        "description" : "Supportive | Honesty & Trust | Listen | Having Fun with Benefits"
+      },
+      {
+        "title" : "Travel Partner",
+        "description" : "Having driving licence | Having Bike or Car prefarable"
+      },
+      {
+        "title" : "Tea | Coffee Partner",
+        "description" :"Proactive for paying Bills | Offer some snacks with beverages"
+      }
+    ]
+  }
+}
