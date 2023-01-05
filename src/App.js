@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import Openings from "./Components/Openings";
 
 class App extends Component {
   constructor(props) {
@@ -17,8 +18,8 @@ class App extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
+    // ReactGA.initialize("UA-110570651-1");
+    // ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData() {
@@ -46,7 +47,8 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+        <Openings/>
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
