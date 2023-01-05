@@ -15,7 +15,7 @@ class Header extends Component {
   componentDidMount() {
     let items = [];
     this.interval = setInterval(() =>{
-      if (this.props.data.mylove) {
+      if (this.props.data) {
        items = this.props.data.mylove;
       }
       this.setState({ mylove: items[Math.floor(Math.random() * items.length)] })
